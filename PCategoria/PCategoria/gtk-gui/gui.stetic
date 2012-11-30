@@ -38,7 +38,7 @@
             <child>
               <widget class="Gtk.Label" id="label1">
                 <property name="MemberName" />
-                <property name="LabelProp" translatable="yes">Categoria1</property>
+                <property name="LabelProp" translatable="yes">Categoria</property>
               </widget>
               <packing>
                 <property name="Position">0</property>
@@ -48,8 +48,8 @@
               </packing>
             </child>
             <child>
-              <widget class="Gtk.ComboBox" id="combobox1">
-                <property name="MemberName">ComboBox</property>
+              <widget class="Gtk.ComboBox" id="comboBox">
+                <property name="MemberName">comboBox</property>
                 <property name="IsTextCombo">False</property>
                 <property name="Items" translatable="yes" />
               </widget>

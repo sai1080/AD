@@ -8,7 +8,7 @@ public partial class MainWindow
 	private global::Gtk.Toolbar toolbar1;
 	private global::Gtk.HBox hbox1;
 	private global::Gtk.Label label1;
-	private global::Gtk.ComboBox combobox1;
+	private global::Gtk.ComboBox comboBox;
 	
 	protected virtual void Build ()
 	{
@@ -42,17 +42,17 @@ public partial class MainWindow
 		// Container child hbox1.Gtk.Box+BoxChild
 		this.label1 = new global::Gtk.Label ();
 		this.label1.Name = "label1";
-		this.label1.LabelProp = global::Mono.Unix.Catalog.GetString ("Categoria1");
+		this.label1.LabelProp = global::Mono.Unix.Catalog.GetString ("Categoria");
 		this.hbox1.Add (this.label1);
 		global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.label1]));
 		w3.Position = 0;
 		w3.Expand = false;
 		w3.Fill = false;
 		// Container child hbox1.Gtk.Box+BoxChild
-		this.combobox1 = new global::Gtk.ComboBox ();
-		this.combobox1.Name = "combobox1";
-		this.hbox1.Add (this.combobox1);
-		global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.combobox1]));
+		this.comboBox = new global::Gtk.ComboBox ();
+		this.comboBox.Name = "comboBox";
+		this.hbox1.Add (this.comboBox);
+		global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.comboBox]));
 		w4.Position = 1;
 		w4.Expand = false;
 		w4.Fill = false;
