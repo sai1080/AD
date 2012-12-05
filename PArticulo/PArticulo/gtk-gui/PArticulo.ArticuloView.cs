@@ -6,6 +6,7 @@ namespace PArticulo
 	{
 		private global::Gtk.UIManager UIManager;
 		private global::Gtk.Action saveAction;
+		private global::Gtk.Action saveAction1;
 		private global::Gtk.VBox vbox1;
 		private global::Gtk.Toolbar toolbar1;
 		private global::Gtk.Table table1;
@@ -25,6 +26,8 @@ namespace PArticulo
 			this.saveAction = new global::Gtk.Action ("saveAction", global::Mono.Unix.Catalog.GetString ("_Guardar"), null, "gtk-save");
 			this.saveAction.ShortLabel = global::Mono.Unix.Catalog.GetString ("_Guardar");
 			w1.Add (this.saveAction, null);
+			this.saveAction1 = new global::Gtk.Action ("saveAction1", null, null, "gtk-save");
+			w1.Add (this.saveAction1, null);
 			this.UIManager.InsertActionGroup (w1, 0);
 			this.AddAccelGroup (this.UIManager.AccelGroup);
 			this.Name = "PArticulo.ArticuloView";
@@ -35,7 +38,7 @@ namespace PArticulo
 			this.vbox1.Name = "vbox1";
 			this.vbox1.Spacing = 6;
 			// Container child vbox1.Gtk.Box+BoxChild
-			this.UIManager.AddUiFromString ("<ui><toolbar name='toolbar1'><toolitem/></toolbar></ui>");
+			this.UIManager.AddUiFromString ("<ui><toolbar name='toolbar1'><toolitem/><toolitem name='saveAction1' action='saveAction1'/></toolbar></ui>");
 			this.toolbar1 = ((global::Gtk.Toolbar)(this.UIManager.GetWidget ("/toolbar1")));
 			this.toolbar1.Name = "toolbar1";
 			this.toolbar1.ShowArrow = false;

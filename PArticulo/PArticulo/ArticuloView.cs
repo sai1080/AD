@@ -14,15 +14,24 @@ namespace PArticulo
 			
 			
 		public string Nombre {
+			get {return entryNombre.Text;}
 				set {entryNombre.Text = value;}
 			}
 			
 		public double Precio {
-				set{spinButtonPrecio.Value = value;}
+				get{return Convert.ToDecimal(spinButtonPrecio.Value);}
+				set{spinButtonPrecio.Value = Convert.ToDouble(value);}
 			}
 		
-		//public long Categoria{
+		public long Categoria{
+			set{
+				
+			}
+		}
 		
+		public Gtk.Action SaveAction {
+			get {return saveAction;}
+		}
 		
 			
 		
