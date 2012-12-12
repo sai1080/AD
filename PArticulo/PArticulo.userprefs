@@ -1,20 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PArticulo/MainWindow.cs">
-    <Files>
-      <File FileName="PArticulo/MainWindow.cs" Line="104" Column="37" />
-      <File FileName="PArticulo/ArticuloView.cs" Line="22" Column="5" />
-      <File FileName="PArticulo/Main.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Option id="ShowVersionControlOverlays" value="True" />
           <Option id="ShowAllFiles" value="True" />
           <Node name="PArticulo" expanded="True">
-            <Node name="UserInterface" expanded="True" />
+            <Node name="bin" expanded="True" />
             <Node name="gtk-gui" expanded="True" />
-            <Node name="MainWindow.cs" selected="True" />
+            <Node name="DbConnection.cs" selected="True" />
           </Node>
           <Node name="PGtkSerpis" expanded="True" />
         </State>

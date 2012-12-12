@@ -80,5 +80,9 @@
       <Project>{3A039522-877E-4A4A-BB53-3C5AD82F76A4}</Project>
       <Name>PGtkSerpis</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PAdSerpis\PAdSerpis.csproj">
+      <Project>{62EAF797-0C9D-4559-BAEF-C8E42849B989}</Project>
+      <Name>PAdSerpis</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

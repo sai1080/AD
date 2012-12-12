@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PArticulo", "PArticulo\PArt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGtkSerpis", "PGtkSerpis\PGtkSerpis.csproj", "{3A039522-877E-4A4A-BB53-3C5AD82F76A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAdSerpis", "PAdSerpis\PAdSerpis.csproj", "{62EAF797-0C9D-4559-BAEF-C8E42849B989}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{4D68E2A5-5FA6-4E34-89FF-15E06AF44417}.Debug|x86.Build.0 = Debug|x86
 		{4D68E2A5-5FA6-4E34-89FF-15E06AF44417}.Release|x86.ActiveCfg = Release|x86
 		{4D68E2A5-5FA6-4E34-89FF-15E06AF44417}.Release|x86.Build.0 = Release|x86
+		{62EAF797-0C9D-4559-BAEF-C8E42849B989}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{62EAF797-0C9D-4559-BAEF-C8E42849B989}.Debug|x86.Build.0 = Debug|Any CPU
+		{62EAF797-0C9D-4559-BAEF-C8E42849B989}.Release|x86.ActiveCfg = Release|Any CPU
+		{62EAF797-0C9D-4559-BAEF-C8E42849B989}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = PArticulo\PArticulo.csproj
