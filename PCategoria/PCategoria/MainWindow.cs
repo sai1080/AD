@@ -16,9 +16,10 @@ public partial class MainWindow: Gtk.Window
 	
 	private void fillComboBox()
 	{
+		
 		CellRenderer cellRenderer = new CellRendererText();
 		comboBox.PackStart(cellRenderer, false); //expand=false
-		comboBox.AddAttribute (cellRenderer, "text", 1);
+		comboBox.AddAttribute (cellRenderer, "text", 0);
 		
 		ListStore listStore = new ListStore(typeof(string), typeof(string));
 		

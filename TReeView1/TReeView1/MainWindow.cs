@@ -13,15 +13,16 @@ public partial class MainWindow: Gtk.Window
 		
 		treeView.AppendColumn("Columna uno",new CellRendererText(),"text",0);
 		treeView.AppendColumn("Columna dos",new CellRendererText(),"text",1);
+		treeView.AppendColumn("Columna tres",new CellRendererText(),"text",2);
 		
-		ListStore listStore = new ListStore(typeof(string), typeof(string));
+		ListStore listStore = new ListStore(typeof(string), typeof(string), typeof(string));
 		
 		treeView.Model = listStore;
 		
-		listStore.AppendValues("clave uno", "valor uno");
-		listStore.AppendValues("clave dos", "valor dos");
-		listStore.AppendValues("clave tres", "valor tres");
-		listStore.AppendValues("clave cuatro", "valor cuatro");
+		listStore.AppendValues("clave uno", "valor uno", "uno");
+		listStore.AppendValues("clave dos", "valor dos", "dos");
+		listStore.AppendValues("clave tres", "valor tres", "tres");
+		listStore.AppendValues("clave cuatro", "valor cuatro", "cuatro");
 		
 		treeView.Selection.Changed += delegate {//añade la ocurrencia del metodo al evento
 			int count = treeView.Selection.CountSelectedRows();
@@ -32,7 +33,7 @@ public partial class MainWindow: Gtk.Window
 				object value = listStore.GetValue(iter, 0);
 				Console.WriteLine("value={0}", value);
 			});	
-	  	};	
+	  	};
 	}
 	
 	protected void OnDeleteEvent (object sender, DeleteEventArgs a)
