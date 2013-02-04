@@ -17,6 +17,7 @@ public partial class MainWindow: Gtk.Window
 		
 		Configuration configuration = new Configuration();
 		configuration.Configure();
+		configuration.SetProperty(NHibernate.Cfg.Environment.Hbm2ddlKeyWords,"none");
 		
 		configuration.AddAssembly(typeof(Categoria).Assembly);
 		
@@ -29,8 +30,9 @@ public partial class MainWindow: Gtk.Window
 		Categoria categoria = (Categoria)session.Load(typeof(Categoria),2L);
 			
 		Console.WriteLine("Categoria Id={0} Nombre={1}", categoria.Id, categoria.Nombre);
-		categoria.Nombre = DataTime.Now.ToString();
-		session.SaveOrUpdate (categoria);	
+		categoria.Nombre = DateTime.Now.ToString();
+		session.SaveOrUpdate (categoria);
+		 session.Flush();                         
 		session.Close();
 		
 		sessionFactory.Close();
