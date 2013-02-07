@@ -1,14 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PNhibernate/MainWindow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PNhibernate/Articulo.hbm.xml">
     <Files>
       <File FileName="PNhibernate/Main.cs" Line="4" Column="1" />
-      <File FileName="PNhibernate/MainWindow.cs" Line="41" Column="47" />
-      <File FileName="PNhibernate/Categoria.cs" Line="2" Column="1" />
+      <File FileName="PNhibernate/MainWindow.cs" Line="34" Column="58" />
+      <File FileName="PNhibernate/Categoria.cs" Line="5" Column="24" />
       <File FileName="PNhibernate/Categoria.hbm.xml" Line="15" Column="1" />
       <File FileName="PNhibernate/hibernate.cfg.xml" Line="11" Column="27" />
-      <File FileName="PNhibernate/Articulo.cs" Line="11" Column="3" />
-      <File FileName="PNhibernate/Articulo.hbm.xml" Line="17" Column="1" />
+      <File FileName="PNhibernate/Articulo.cs" Line="11" Column="22" />
+      <File FileName="PNhibernate/Articulo.hbm.xml" Line="22" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

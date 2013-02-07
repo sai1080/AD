@@ -12,7 +12,7 @@
 		<property name="Nombre"/>
 		<property name="Precio"/>
 		<!-- TODO mapear propiedad Categoria -->
-		    <many-to-one class="categoria"
+		    <many-to-one class="package.EntityClass"
         fetch="select"
         name="categoria">
           <column name="id" unique="true" not-null="true"/>
