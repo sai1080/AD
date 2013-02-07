@@ -11,6 +11,11 @@
 			</id>
 		<property name="Nombre"/>
 		<property name="Precio"/>
-		<!-- TODO mapear propiedada Categoria -->		
+		<!-- TODO mapear propiedad Categoria -->
+		    <many-to-one class="categoria"
+        fetch="select"
+        name="categoria">
+          <column name="id" unique="true" not-null="true"/>
+    </many-to-one>		
 		</class>
 </hibernate-mapping>

@@ -38,7 +38,7 @@ public partial class MainWindow: Gtk.Window
 		}
 	}
 	
-	private void updateCategoria(ISessionFactory sessionFactory sessionFactory){
+	private void updateCategoria(ISessionFactory  sessionFactory){
 		ISession session = sessionFactory.OpenSession();
 		try{
 			Categoria categoria = (Categoria)session.Load(typeof(Categoria),2L);			
