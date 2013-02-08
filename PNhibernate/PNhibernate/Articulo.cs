@@ -8,7 +8,7 @@ namespace Serpis.Ad
 		public virtual string Nombre {get; set;}
 		public virtual decimal Precio {get; set;}
 		//TODO propiedades Categoria
-		public virtual int Categoria{get; set;}
+		public virtual Categoria Categoria{get; set;}
 	}
 }
 
